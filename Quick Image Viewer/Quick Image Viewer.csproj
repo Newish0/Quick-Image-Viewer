@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Quick_Image_Viewer</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="003.jpg" />
+    <None Remove="CIMG1245.jpg" />
+    <None Remove="mpv-shot0001.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="12.2.2" />
+    <PackageReference Include="Magick.NET.Core" Version="12.2.2" />
+    <PackageReference Include="Magick.NET.SystemDrawing" Version="6.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="003.jpg" />
+    <Resource Include="CIMG1245.jpg" />
+    <Resource Include="mpv-shot0001.png" />
+  </ItemGroup>
+
+</Project>
