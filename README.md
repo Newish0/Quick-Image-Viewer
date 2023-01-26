@@ -1,5 +1,5 @@
 # Quick-Image-Viewer
 
-![demo](./imgs/demo.png)
+![demo](demo.png)
 
 A quick and dirty image viewer with Magick.NET.
